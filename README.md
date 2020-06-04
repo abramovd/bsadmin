@@ -1,7 +1,12 @@
 # bsadmin
 
 ## Overview
-
+This is the project for Banner Rotation System management. This is an admin 
+interface for configuring banners to shows on the different pages of a website.
+bsadmin exposes API endpoint for listing all currently active banners that can
+be used by [bsendpoint](https://github.com/abramovd/bsendpoint) service to serve
+HTTP requests from different pages and show the best suited banners based on 
+the configuration. 
 
 ## Tech
 
@@ -41,7 +46,3 @@ pip install pip-tools
 pip-compile requirements/test-requirements.in
 ```
 
-## API docs
-
-FastAPI supports openapi out-of-the-box.
-Location of api docs in local development: http://127.0.0.1:8089/docs
