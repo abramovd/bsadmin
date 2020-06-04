@@ -1,0 +1,6 @@
+django
+psycopg2
+dj-database-url
+django_select2
+djangorestframework
+django-filter
